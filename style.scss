@@ -525,6 +525,7 @@ html {
   }
   .content__text {
     width: 1000px;
+    padding: 0 15px;
   }
   .main .content__list-img .cart {
     transform: translate(-55%);
@@ -698,6 +699,7 @@ html {
         display: flex;
         align-items: center;
         position: relative;
+        margin: 0 10px;
         input {
           padding-left: 20px;
           width: 280px;
