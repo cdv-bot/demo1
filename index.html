@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="App">
+    <div class="component">
+      <div class="back1">
+        <header class="header grid">
+          <div class="header__menu">
+            <div class="header__menu-logo">
+              <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="header__menu-icon">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="header__menu-list">
+              <ul class="list__ul grid">
+                <li><a href="">List your property</a></li>
+                <li><a href="">Trips</a></li>
+                <li><a href="">Account Settings</a></li>
+                <li>
+                  <hr class="hr" />
+                </li>
+                <li class="li__info">
+                  <div class="li_img">
+                    <img src="./img/logo.png" alt="">
+                  </div>
+                  <span>Đỗ An</span>
+                </li>
+                <li><a href="">Account Settings</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="back2">
+        <div class="header__filter grid">
+          <div class="header__filter-input">
+            <input type="text" placeholder="Search by keywords">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="header__filter-bt">
+            <img class="img_ft" src="./img/filter.png" alt="">
+            <span>Filters</span>
+          </div>
+        </div>
+        <div class="header__filter-list ">
+          <div class="sl_filter grid">
+            <div class="sl_filter-1">
+              <label for="sl1">Bedrooms</label>
+              <select id="sl1" class="sl ">
+                <option value="0">4</option>
+                <option value="1">2</option>
+              </select>
+            </div>
+            <div class="sl_filter-2">
+              <label for="sl1">Bedrooms</label>
+              <select id="sl1" class="sl ">
+                <option value="0">2</option>
+                <option value="1">Audi</option>
+              </select>
+            </div>
+            <div class="sl_filter-3">
+              <label for="sl1">Price Range</label>
+              <select id="sl1" class="sl ">
+                <option value="0">Up to $2,000 /wk</option>
+                <option value="1">Audi</option>
+              </select>
+            </div>
+          </div>
+          <!-- <div class="sl_price grid">
+          </div> -->
+
+          <hr class="hr " />
+          <label class="lb lb_1">Property Type</label>
+          <div class="sl_radio grid">
+
+            <label class="container">
+              <input type="radio" checked="checked">
+
+              <span class="checkmark"></span>
+              House
+            </label>
+            <label class="container">
+              <input type="radio">
+              Apartment
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="radio">
+              Loft
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="radio">
+              Townhouse
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <hr class="hr" />
+          <label class="lb lb_2">Amenities</label>
+          <div class="sl_checkbox grid">
+            <label class="container">
+              <input type="checkbox" checked="checked">
+              Balcony
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Air conditioning
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Pool
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Beach
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Pet friendly
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Kid friendly
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox">
+              Parking
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="sl_bt">
+            <div class="clbt">
+              <button>Update results</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+
+      <div class="calo">
+        <div class="main__header">
+          <div class="main__header-inp">
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="" placeholder="Search by keywords">
+          </div>
+          <div class="main__header-list">
+            <ul class="list_ul">
+              <li><a href="">List your property</a></li>
+              <li><a href="">Trips</a></li>
+              <li><a href="">Messages</a></li>
+              <li><a href="">Support</a></li>
+              <li><img src="./img/filter.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content__text">
+        <p>Los Angeles</p>
+        <p>
+          Live like the stars in these luxurious Southern
+        </p>
+        <p>California estates.</p>
+      </div>
+      <div class="content">
+
+        <div class="content__list">
+          <div class="content__list-img">
+            <img src="./img/image.png" alt="">
+            <div class="cart">
+              <div class="cart__1">
+                <span>PLUS</span>
+                <span>3 beds • 2 baths</span>
+              </div>
+              <div class="cart__2">
+                <span>
+                  Modern home in city center
+                </span>
+              </div>
+              <div class="cart__3">
+                <p>
+                  $1,400 /wk
+                </p>
+              </div>
+              <div class="cart__4">
+                <div class="rate">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg>
+                </div>
+                <span>34 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__list">
+          <div class="content__list-img">
+            <img src="./img/image.png" alt="">
+            <div class="cart">
+              <div class="cart__1">
+                <span>PLUS</span>
+                <span>3 beds • 2 baths</span>
+              </div>
+              <div class="cart__2">
+                <span>
+                  Modern home in city center
+                </span>
+              </div>
+              <div class="cart__3">
+                <p>
+                  $1,400 /wk
+                </p>
+              </div>
+              <div class="cart__4">
+                <div class="rate">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg>
+                </div>
+                <span>34 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__list">
+          <div class="content__list-img">
+            <img src="./img/image.png" alt="">
+            <div class="cart">
+              <div class="cart__1">
+                <span>PLUS</span>
+                <span>3 beds • 2 baths</span>
+              </div>
+              <div class="cart__2">
+                <span>
+                  Modern home in city center
+                </span>
+              </div>
+              <div class="cart__3">
+                <p>
+                  $1,400 /wk
+                </p>
+              </div>
+              <div class="cart__4">
+                <div class="rate">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg>
+                </div>
+                <span>34 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__list">
+          <div class="content__list-img">
+            <img src="./img/image.png" alt="">
+            <div class="cart">
+              <div class="cart__1">
+                <span>PLUS</span>
+                <span>3 beds • 2 baths</span>
+              </div>
+              <div class="cart__2">
+                <span>
+                  Modern home in city center
+                </span>
+              </div>
+              <div class="cart__3">
+                <p>
+                  $1,400 /wk
+                </p>
+              </div>
+              <div class="cart__4">
+                <div class="rate">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.28279 10.9302C2.54916 11.3159 1.69173 10.6929 1.83184 9.87604L2.30425 7.12166L0.303081 5.171C-0.290436 4.59247 0.0370741 3.58449 0.857294 3.46531L3.62285 3.06345L4.85964 0.557434C5.22645 -0.185811 6.2863 -0.185811 6.65311 0.557434L7.8899 3.06345L10.6555 3.46531C11.4757 3.58449 11.8032 4.59247 11.2097 5.171L9.2085 7.12166L9.68091 9.87604C9.82102 10.6929 8.96359 11.3159 8.22996 10.9302L5.75638 9.62978L3.28279 10.9302Z"
+                      fill="#38B2AC" />
+                  </svg>
+                </div>
+                <span>34 Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./a.js"></script>
+
+</html>
