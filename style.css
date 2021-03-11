@@ -399,7 +399,8 @@ html {
     width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px; }
+    grid-column-gap: 10px;
+    justify-items: center; }
 
   .content__text {
     width: 1000px; }
@@ -449,7 +450,8 @@ html {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 20px;
     margin-left: 0;
-    grid-template-rows: repeat(5, 20px); } }
+    grid-template-rows: repeat(5, 20px);
+    width: 100%; } }
 @media screen and (min-width: 1280px) {
   .header__filter-list {
     display: flex !important; }
@@ -483,13 +485,14 @@ html {
     border-top: 1px solid black;
     padding-bottom: 40px;
     overflow: auto;
-    height: 100vh; }
+    height: 100vh;
+    padding: 0 10px; }
 
   .App .component .header__filter-list .sl_filter {
-    margin-top: 20px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
 
   .App .component .header__filter-list .hr {
     margin: 0 20px;
@@ -516,7 +519,8 @@ html {
   .App .component .header__filter-list .sl_radio {
     flex-direction: column;
     justify-content: center;
-    width: 300px; }
+    width: 100%;
+    min-height: auto; }
 
   .App .component .header__menu {
     justify-content: center; }
